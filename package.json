@@ -1,11 +1,12 @@
 {
   "name": "backend-sistem",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server"
+    "start": "node server",
+    "deploy": "npm run build && npm run start"
   },
   "engines" : { 
     "npm" : ">=8.0.0 <9.5.0",

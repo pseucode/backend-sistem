@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server"
+    "deploy": "npm run build && npm run start"
   },
   "engines" : { 
-    "npm" : "9.5.0",
-    "node" : "18.14.2"
+    "npm" : ">=8.0.0 <9.5.0",
+    "node" : ">=16.0.0 <18.15.0"
   },
   "keywords": [],
   "author": "",

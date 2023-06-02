@@ -10,7 +10,7 @@ const routes = [
         method: 'GET',
         path: '/',
         handler: (request, h) => {
-            return 'Homepage Update 2';
+            return 'Homepage Update 3 CI/CD elastic beanstalk';
         },
     },
 ];
